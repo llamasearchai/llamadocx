@@ -1,0 +1,96 @@
+site_name: LlamaDocx
+site_description: A powerful toolkit for working with Microsoft Word documents
+site_author: LlamaDocx Team
+site_url: https://llamasearch.github.io/llamadocx
+
+repo_name: llamasearch/llamadocx
+repo_url: https://github.com/llamasearch/llamadocx
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          selection:
+            docstring_style: google
+          rendering:
+            show_source: true
+            show_root_heading: true
+            show_if_no_docstring: false
+      watch:
+        - src/llamadocx
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - pymdownx.snippets
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - User Guide:
+    - Getting Started: user-guide/getting-started.md
+    - Document Operations: user-guide/document-operations.md
+    - Templates: user-guide/templates.md
+    - Text Search & Replace: user-guide/text-search-replace.md
+    - Conversion: user-guide/conversion.md
+    - Images: user-guide/images.md
+    - Metadata: user-guide/metadata.md
+  - CLI: cli.md
+  - API Reference:
+    - Document: api/document.md
+    - Template: api/template.md
+    - Search: api/search.md
+    - Convert: api/convert.md
+    - Image: api/image.md
+    - Metadata: api/metadata.md
+  - Examples: examples.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/llamasearch/llamadocx
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/llamasearch
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/llamadocx/
+
+copyright: Copyright &copy; 2023 LlamaSearch.AI 
