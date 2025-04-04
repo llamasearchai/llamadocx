@@ -82,7 +82,7 @@ llamadocx template template.docx data.json -o output.docx
 
 ## Documentation
 
-For detailed documentation, visit [llamadocx.readthedocs.io](https://llamadocx.readthedocs.io/).
+For detailed documentation, visit [llamadocx.readthedocs.io](https://llamasearch.ai
 
 ### Examples
 
@@ -99,7 +99,7 @@ Check the `examples` directory for more usage examples:
 To set up the development environment:
 
 ```bash
-git clone https://github.com/llamasearch/llamadocx.git
+git clone https://llamasearch.ai
 cd llamadocx
 pip install -e .[dev]
 ```
@@ -120,4 +120,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-LlamaDocx is developed and maintained by [LlamaSearch.AI](https://llamasearch.ai). 
+LlamaDocx is developed and maintained by [LlamaSearch.AI](https://llamasearch.ai 
