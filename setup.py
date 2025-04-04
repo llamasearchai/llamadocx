@@ -11,16 +11,16 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8'
     long_description = f.read()
 
 setup(
-    name="llamadocx",
+    name="llamadocx-llamasearch",
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     description="A powerful toolkit for working with Microsoft Word documents",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="LlamaDocx Team",
-    author_email="info@llamasearch.ai",
-    url="https://github.com/llamasearch/llamadocx",
+    author="LlamaSearch AI",
+    author_email="nikjois@llamasearch.ai",
+    url="https://llamasearch.ai",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",

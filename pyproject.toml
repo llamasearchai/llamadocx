@@ -3,17 +3,17 @@ requires = ["setuptools>=42.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llamadocx"
+name = "llamadocx-llamasearch"
 version = "0.1.0"
 description = "A powerful toolkit for working with Microsoft Word documents"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
-    {name = "LlamaDocx Team", email = "info@llamasearch.ai"}
+    {name = "llamadocx-llamasearch", email = "nikjois@llamasearch.ai"}
 ]
 maintainers = [
-    {name = "LlamaDocx Team", email = "info@llamasearch.ai"}
+    {name = "llamadocx-llamasearch", email = "nikjois@llamasearch.ai"}
 ]
 keywords = ["docx", "word", "document", "template", "conversion"]
 classifiers = [
